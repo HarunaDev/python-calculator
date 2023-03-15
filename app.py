@@ -35,29 +35,29 @@ while True:
     print("E. Exit") 
 
     # get data from users
-    choice = input("Input your choice: ")
+    choice = input("Input your choice: ").lower()
 
-    if choice == "a" or choice == "A":
+    if choice == "a":
         print("Addition")
         a = int(input("input first number: "))
         b = int(input("input second number: "))
         add(a,b)
-    elif choice == "b" or choice == "B":
+    elif choice == "b":
         print("Subtraction")
         a = int(input("input first number: "))
         b = int(input("input second number: "))
         sub(a,b)
-    elif choice == "c" or choice == "C":
+    elif choice == "c":
         print("Multiplication")
         a = int(input("input first number: "))
         b = int(input("input second number: "))
         multiply(a,b)
-    elif choice == "d" or choice == "D":
+    elif choice == "d":
         print("Division")
         a = int(input("input first number: "))
         b = int(input("input second number: "))
         divide(a,b)
-    elif choice == "e" or choice == "E":
+    elif choice == "e":
         print("Program ended")
         quit()
 
