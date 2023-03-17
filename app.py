@@ -61,6 +61,7 @@ while True:
         print("Program ended")
         quit()
 
+# Write script to receive both int & float at the same time
 
 
 
